@@ -87,7 +87,7 @@ function updateHelper(evt, lineNumber, translationsForWord) {
   }
 
   if (evt.target == updateHelper.currentWord) {
-    if (parallel_translation.style.display == "none") {
+    if (["none",""].includes(parallel_translation.style.display)) {
       displayTranslation(lineNumber);
     } else {
       displayComment(lineNumber);
@@ -140,6 +140,7 @@ var commentary = {}
 let allLines = [];
 function displayTranslation(line) {
   if (!translation.hasOwnProperty(line)) {
+    console.log(line);
     return false;
   }
   comment.style.display = "none";
