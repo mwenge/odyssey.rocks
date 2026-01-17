@@ -1,0 +1,20 @@
+{
+    "short_name": "Odyssey",
+    "name": "Homer's Odyssey",
+    "icons": [
+        {
+            "src": "../images/odyssey.png",
+            "type": "image/png",
+            "sizes": "192x192"
+            },
+        {
+            "src": "../images/odyssey.png",
+            "type": "image/png",
+            "sizes": "512x512"
+            }
+        ],
+    "start_url": "Homer_Odyssey_1.html",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": "."
+}
