@@ -3,12 +3,12 @@
     "name": "Homer's Odyssey",
     "icons": [
         {
-            "src": "../images/odyssey.png",
+            "src": "../images/odyssey_192.png",
             "type": "image/png",
             "sizes": "192x192"
             },
         {
-            "src": "../images/odyssey.png",
+            "src": "../images/odyssey_512.png",
             "type": "image/png",
             "sizes": "512x512"
             }
